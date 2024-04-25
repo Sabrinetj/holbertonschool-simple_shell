@@ -21,7 +21,7 @@ int main(void)
 	{
 		if (interactive_mode)
 		{
-			write(STDOUT_FILENO, "top_shell>> ", 12);
+			write(STDOUT_FILENO, "sabrine_shell>> ", 15);
 		}
 
 		input_cmd = read_command();
